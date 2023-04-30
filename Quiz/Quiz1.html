@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="Quiz1.css">
+    <style>
+		body {
+			background-image: url("businessman-holding-giving-insurance-assurance-icon-including-family-health-real-estate-car-financial-risk-management-concept_50039-3170.jpg");
+			background-repeat: repeat;
+            background-size: 750px 300px;
+		}
+		body {
+			font-size: 16px;
+		}
+
+		@media (max-width: 768px) {
+			body {
+				font-size: 14px;
+			}
+		}
+
+		@media (max-width: 480px) {
+			body {
+				font-size: 12px;
+			}
+		}
+	</style>
+    <meta charset="UTF-8">
+    <title>CAR Insurance Company Form</title>
+</head>
+<body>
+    <h1>Car Insurance Company Form</h1>
+    <p>Please fill out the form below to receive a quote for your insurance needs.</p>
+    <form>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname"><br>
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname"><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone"><br>
+
+        <label for="address">Street Address:</label>
+        <input type="text" id="address" name="address"><br>
+
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city"><br>
+
+        <label for="state">State:</label>
+        <select id="state" name="state">
+            <option value="">--Select--</option>
+            <option value="PU">Punjab</option>
+            <option value="SI">Sindh</option>
+            <option value="KPK">Khyber PK</option>
+            <option value="BA">Balochistan</option>
+        </select><br>
+        <label for="zip">Zip Code:</label>
+        <input type="text" id="zip" name="zip"><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob"><br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+
+        <label for="marital-status">Marital Status:</label>
+        <select id="marital-status" name="marital-status">
+            <option value="">--Select--</option>
+            <option value="single">Single</option>
+            <option value="married">Married</option>
+            <option value="divorced">Divorced</option>
+            <option value="widowed">Widowed</option>
+        </select><br>
+
+        <label for="occupation">Occupation:</label>
+        <input type="text" id="occupation" name="occupation"><br>
+
+        <label for="vehicle-year">Vehicle Year:</label>
+        <input type="number" id="vehicle-year" name="vehicle-year"><br>
+
+        <label for="vehicle-make">Vehicle Make:</label>
+        <input type="text" id="vehicle-make" name="vehicle-make"><br>
+
+        <label for="vehicle-model">Vehicle Model:</label>
+        <input type="text" id="vehicle-model" name="vehicle-model"><br>
+
+        <label for="vehicle-type">Vehicle Type:</label>
+        <select id="vehicle-type" name="vehicle-type">
+            <option value="">--Select--</option>
+            <option value="sedan">Sedan</option>
+            <option value="SUV">SUV</option>
+            <option value="Truck">Truck</option>
+        </select><br>
+        <input type="submit" value="Submit">
+
+
+
+
